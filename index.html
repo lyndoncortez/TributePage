@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/033affd47f.js" crossorigin="anonymous"></script>
+    <title>Tribute Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand h1">EveryJuan Can Code</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#main">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#popular">Popular Videos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <section id="main" class="container-md">
+        <div class="row">
+            <div id="img-div" class="col-lg-6 order-last">
+                <figure class="figure mt-lg-4">
+                    <img class="figure-img img-fluid" id="image" src="./img/eccprofile.png" alt="logo">
+                    <figcaption id="img-caption" class="figure-caption text-center">Juan Dela Cruz</figcaption>
+                </figure>
+            </div>
+            <div id="tribute-info" class="col-lg-6 mt-lg-5">
+                <h2 id="title">EveryJuan Studio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam accusantium officia libero sapiente maxime commodi rem et, aspernatur, quo dolorum nesciunt impedit atque repellat adipisci nemo. Sunt, labore amet.</p>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris paddenstoel nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna <a id="tribute-link" href="https://www.youtube.com/channel/UCzs4nxbjM8Om_Avsz0LlVOA" target="_blank">Youtube Channel</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="popular" class="mt-5 mb-lg-5">
+        <h2 class="text-center">Popular Videos</h2>
+        <div class="container videos mt-5">
+            <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/faYL_W6efQQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/sl7gP0OaJ78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/qwmURW9OZNc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+        <div class="container subscribe mt-3">
+            <div class="g-ytsubscribe" data-channelid="UCzs4nxbjM8Om_Avsz0LlVOA" data-layout="full" data-theme="dark" data-count="default"></div>
+        </div>
+        
+    </section>
+    <footer id="contact">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><i class="fab fa-facebook-f"></i></li>
+                <li class="nav-item"><i class="fas fa-envelope"></i></li>
+                <li class="nav-item"><i class="fab fa-youtube"></i></li>
+            </ul>
+            <br>
+            <p>© Copyright 2020 PMC Business Systems Inc.</p>
+    </footer>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

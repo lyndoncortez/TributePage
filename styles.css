@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item {
+    padding: 0 18px 0 10px ;
+}
+
+.row {
+    margin-left: 10%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.figure {
+    padding-left: 20%;
+}
+
+#popular {
+    background-color: #ff4c68;
+    padding: 4% 0;
+    color: white;
+}
+
+.subscribe {
+    padding-top: 2%;
+    padding-left: 30%;
+}
+
+footer {
+    padding-top: 5%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .videos {
+        flex-direction: column;
+    }
+
+    .video-wrapper {
+        margin: 0 auto;
+    }
+
+    .figure {
+        padding-left: 10%;
+    }
+
+    #title {
+        margin-top: 5%;
+    }
+}
